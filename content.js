@@ -4,7 +4,7 @@
   const removePopup = true;
   const debug = true;
 
-  // Domínios e caminhos JSON a serem removidos
+
   const domainsToRemove = ["*.youtube-nocookie.com/*"];
   const jsonPathsToRemove = [
     "playerResponse.adPlacements",
@@ -15,7 +15,6 @@
     "auxiliaryUi.messageRenderers.enforcementMessageViewModel",
   ];
 
-  // Configuração do observador
   const observerConfig = {
     childList: true,
     subtree: true,
