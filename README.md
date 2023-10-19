@@ -1,5 +1,7 @@
 # Youtube-AD-Skipper
 
+### Skip advertisements without harming content creators.
+### Pule as propagandas sem prejudicar os criadores de conteudo.
 
 - Open Google Chrome/Edge, go to the extensions page (Menu > Extensions).
 - Enable "Developer Mode" at the top of the page.
