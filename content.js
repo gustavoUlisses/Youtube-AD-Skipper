@@ -14,7 +14,7 @@
 
   const observerConfig = { childList: true, subtree: true };
   let unpausedAfterSkip = 0;
-  if (debug) console.log("Remove Adblock Thing: Script started");
+  if (debug) console.log("AD Skipper");
   window.__ytplayer_adblockDetected = false;
   if (adblocker) addblocker();
   if (removePopup) popupRemover();
