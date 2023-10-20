@@ -39,7 +39,7 @@
         popupButton2 && popupButton2.click();
         popup.remove();
         unpausedAfterSkip = 2;
-        if (debug) console.log("Remove Adblock Thing: Popup removed");
+        if (debug) console.log("AD Skipper P");
       }
       if (!unpausedAfterSkip > 0) return;
       [video1, video2].forEach(video => {
@@ -66,7 +66,7 @@
     const keyEvent = new KeyboardEvent("keydown", { key: "k", code: "KeyK", keyCode: 75, which: 75, bubbles: true, cancelable: true, view: window });
     document.dispatchEvent(keyEvent);
     unpausedAfterSkip = 0;
-    if (debug) console.log("Remove Adblock Thing: Unpaused video using 'k' key");
+    if (debug) console.log("AD Skipper K");
   }
 
   function removeJsonPaths(domains, paths) {
