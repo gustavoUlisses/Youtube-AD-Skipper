@@ -31,7 +31,7 @@
       const popupButton2 = document.querySelector("#ytp-play-button.ytp-button");
       const video1 = document.querySelector("#movie_player > video.html5-main-video");
       const video2 = document.querySelector("#movie_player > .html5-video-container > video");
-      document.body.style.setProperty("overflow-y", "scroll", "important");
+      document.body.style.setProperty("overflow-y", "auto", "important");
       if (modalOverlay) modalOverlay.removeAttribute("opened") && modalOverlay.remove();
       if (popup) {
         if (debug) console.log("Remove Adblock Thing: Popup detected, removing...");
