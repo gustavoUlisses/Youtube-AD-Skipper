@@ -16,3 +16,6 @@ ______________________________
 - Ative o "Modo de desenvolvedor" na parte superior da página.
 - Clique em "Carregar descompactada" e selecione o diretório da extensão.
 ______________________________
+
+
+Minha primeira extensao para navegador feita com ajuda do chatgpt. 
